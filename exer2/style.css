@@ -1,0 +1,31 @@
+.center-text {
+  text-align: center;
+}
+.text-box {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+body {
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  background-color:#adff96;
+}
+
+body,h1 {
+  font-family: "Raleway", sans-serif
+}
+
+button {
+  background-color: green; 
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
