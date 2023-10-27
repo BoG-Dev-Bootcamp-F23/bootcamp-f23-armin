@@ -26,12 +26,12 @@ const TrainList = ({ data, color, filter, selectedStation }) => {
     });
 
     return (
-        <div style={{ overflowY: 'auto', height: '100%' }}>
+        <div className="trainList">
             {filteredData.map((train, index) => (
                 <React.Fragment key={index}>
                     <Train data={train} color={color} />
                     {index !== filteredData.length - 1 && (
-                        <div style={{ borderBottom: '1px solid black' }}></div>
+                        <div className="trainSeparator"></div>
                     )}
                 </React.Fragment>
             ))}
