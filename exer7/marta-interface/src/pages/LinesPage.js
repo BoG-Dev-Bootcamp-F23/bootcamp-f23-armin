@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import TrainList from '../components/TrainList';
 import '../App.css';
@@ -59,6 +59,9 @@ export default function LinesPage() {
                     <Button color={currColor} setFilter={setFilter} />
                     <TrainList color={currColor} data={data} filter={filter} selectedStation={selectedStation} />
                 </div>
+            </div>
+            <div className="backToHomeContainer">
+                <Link to="/" className="backToHomeButton">Back to Home</Link>
             </div>
         </div>
     );
