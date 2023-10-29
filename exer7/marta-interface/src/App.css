@@ -1,0 +1,206 @@
+.linesPage {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.colorButton {
+  border: none;
+  border-radius: 50px; /* This will make the edges round */
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.colorButton:hover {
+  transform: translateY(-2px);
+}
+
+.colorButton:active {
+  transform: translateY(1px);
+}
+
+.gold { background-color: gold; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+
+.titleContainer {
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.pageTitle {
+  margin: 0;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.actionButton {
+  flex: 1;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border-color: grey;
+  font-weight: 500;
+}
+
+.actionButton.active {
+  background-color: black;
+  color: white;
+}
+
+.trainList {
+  overflow-y: auto;
+  height: 100%;
+}
+
+.trainSeparator {
+  border-bottom: 1px solid black;
+}
+
+.trainItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.trainImageContainer img {
+  width: 50px;
+  height: 50px;
+}
+
+.trainInfoContainer {
+  width: 50%;
+}
+
+.infoContainer {
+  display: flex;
+  align-items: center;
+}
+
+.lineColorContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.gold { background-color: gold; }
+.red { background-color: red; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+
+.greenText {
+  color: green;
+  margin: 0 0 0 10px;
+}
+
+.arrivalTimeContainer p {
+  font-size: 2em;
+  margin: 0;
+}
+
+
+.trainImageContainer .trainIcon {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.homeHeader h1 {
+  font-size: 2em;
+}
+
+.aboutLink, .homeLink {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.homeContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.routes {
+  width: 50%;
+}
+
+.lineLink {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.aboutHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+}
+
+.aboutHeader h1 {
+  font-size: 2em;
+}
+
+.aboutContent {
+  padding: 20px;
+}
+
+.aboutContent p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.aboutContent img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.martaImageContainer {
+  width: 50%;  
+  height: 50%; 
+}
